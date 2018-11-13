@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<!-- Declara o uso do estilo.css e a fonte online !-->  
+<head>
+  <meta charset="utf-8">
+  <title> SECRETARIA DE SAÚDE - OURO BRANCO - MINAS GERAIS </title>
+  <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+    
+<body>
+    
+  <h3 style= "margin-left: 4.6px">FORMULÁRIO PARA MARCAÇÃO DE CONSULTAS</h3><br>
+    
+    <!-- Cria o formulário, e o coneta ao conexao.php pelo método POST !-->
+  <form action="conexao.php" method="post">
+    <fieldset>
+        <fieldset class="grupo">
+            
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nomepaciente" name="nomepaciente" style="width: 10em" value="" required>
+            </div>
+            
+            <div class="campo">
+                <label for="snome">Sobrenome:</label>
+                <input type="text" id="sobrenomepaciente" name="sobrenomepaciente" style="width: 10em" value="" required>
+            </div>
+            
+        </fieldset>
+
+        
+        <div class="campo">
+            <label for="enderecopaciente">Endereço:</label>
+            <input type="text" id="enderecopaciente" name="enderecopaciente" style="width: 21.6em" value="" required>
+        </div>
+        
+        <div class="campo">
+            <label for="telefonepaciente">Telefone:</label>
+            <input  type="text" id="telefonepaciente" name="telefonepaciente" style="width: 8em" value="" required>
+        </div>
+
+        <button class = "botao" type="submit" name="submit">Enviar</button>
+        
+    </fieldset>
+      
+</form>
+    
+    <form name="LoginAtendentes" action="paginaLogin.html" method="POST">
+      
+            <br> <br> <br>
+            <input class="botao" type="submit" name="loginatendentes" value="Login de Atendentes">
+      
+  </form>
+
+</body>
+    
+</html>

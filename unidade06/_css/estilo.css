@@ -1,0 +1,47 @@
+h1, label  {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.form-control:hover{
+    background-color: orange;
+    
+}
+
+
+.btn{
+    background-color: #FF8200;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+     width: 15em;
+    
+}
+
+        
+
+
+.btn:hover{
+    background-color: #008CC8;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+   
+}
+
+footer{
+    
+    background-color: orange; /* This color gets inverted color or you can add navbar inverse class in html */
+}
+
+.tfooter{
+    font-family: 'Open Sans', sans-serif;
+    
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 0.8em;
+    
+}
+
+.navbar{
+    background-color: #FF8200;
+}
