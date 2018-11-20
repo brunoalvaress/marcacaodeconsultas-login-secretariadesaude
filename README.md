@@ -1,3 +1,5 @@
+![2844ae3d-7ebe-61db-eee0-142dd87c8acc](https://user-images.githubusercontent.com/43390621/48809797-499a3200-ed0d-11e8-8fcd-025f06c95eed.jpg)
+
 # Site para marcação de consultas médicas/login de funcionários da Secretaria de Saúde
 
 Feito a pedido do Secretário de Saúde da cidade Ouro Branco, com o intuito de diminuir as filas presenciais dos postos de saúde do município. O sistema possui acesso, inserção e exclusão do banco de dados, login com autenticação para funcionários.
