@@ -2,7 +2,7 @@
 
 Feito a pedido do Secretário de Saúde da cidade Ouro Branco, com o intuito de diminuir as filas presenciais dos postos de saúde do município. O sistema possui acesso, inserção e exclusão do banco de dados, login com autenticação para funcionários.
 
-## Tecnologias usadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
